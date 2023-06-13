@@ -1,0 +1,33 @@
+*{
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.headerMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+}
+
+.body {
+  font-size: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  background-image: url('./restaurant.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 78vh;
+}
+
+.footer {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
