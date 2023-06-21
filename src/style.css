@@ -4,11 +4,26 @@
   margin: 0px;
 }
 .headerMenu{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template: repeat(2,8vh) / repeat(3, 1fr);
   align-items: center;
-  justify-content: space-around;
-  height: 8vh;
+  justify-content: center;
+}
+
+.Barriots{
+  grid-area: 1 / 1 / 2 / 4;
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
+
+.selection{
+  justify-self: center;
+  font-size: 2rem;
+}
+
+.selection:hover{
+  cursor:pointer;
 }
 
 .body {
@@ -21,7 +36,7 @@
   background-image: url('./restaurant.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 78vh;
+  height: 74vh;
 }
 
 .footer {
